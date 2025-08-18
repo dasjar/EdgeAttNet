@@ -1,0 +1,26 @@
+# Core libraries
+numpy
+pandas
+scipy
+scikit-learn
+scikit-image
+
+# Visualization
+matplotlib
+seaborn
+Pillow
+
+# Machine Learning
+torch
+torchvision
+segmentation-models-pytorch
+monai
+transformers
+
+# Image processing
+opencv-python-headless==4.7.0.72
+
+# Utilities
+tqdm
+requests
+beautifulsoup4
