@@ -39,11 +39,11 @@ Any questions regarding the model or dataset can be directed to Victor Solomon  
    - Standard U-Net
    - U-Net + MHSA (with and without positional encodings)
 
-## 📊 Results
+## Results
 
 **EdgeAttNet** achieves superior segmentation performance while significantly reducing model complexity:
 
-### 🔧 Model Complexity
+### Model Complexity
 
 | Model                          | Trainable Parameters |
 |--------------------------------|----------------------|
@@ -56,7 +56,7 @@ This reduction in complexity results in improved training and inference efficien
 
 Additionally, the integration of edge priors removes the need for positional encodings, simplifying the architecture while maintaining robust spatial feature extraction.
 
-### 📈 Segmentation Performance on MAGFILO Test Split
+### Segmentation Performance on MAGFILO Test Split
 
 | Metric                        | U-Net   | U-Net + MHSA (no PE) | U-Net + MHSA (with PE) | **EdgeAttNet (ours)** |
 |------------------------------|---------|------------------------|--------------------------|------------------------|
@@ -86,7 +86,7 @@ All code is written in Python (>=3.8). Deep learning models are implemented in P
 
 
 
-## 📚 References
+## References
 
 <a id="1">[1]</a> S. E. Gibson, “Solar prominences: theory and models: Fleshing out the magnetic skeleton,” *Living Reviews in Solar Physics*, vol. 15, no. 1, p. 7, 2018.  
 <a id="2">[2]</a> J. Eastwood, R. Nakamura, L. Turc, L. Mejnertsen, and M. Hesse, “The scientific foundations of forecasting magnetospheric space weather,” *Space Science Reviews*, vol. 212, pp. 1221–1252, 2017.  
