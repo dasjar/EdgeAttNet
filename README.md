@@ -90,3 +90,4 @@ All code is written in Python (>=3.8). Deep learning models are implemented in P
 
 ```bash
 pip install -r requirements.txt
+![alt text](architecture1.png)
