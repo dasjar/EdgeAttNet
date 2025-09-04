@@ -66,7 +66,7 @@ Additionally, the integration of edge priors removes the need for positional enc
 **EdgeAttNet** consistently outperforms all U-Net variants across both pairwise and multiscale *mIoU* metrics, demonstrating its effectiveness in capturing both global context and fine-scale spatial features.
 
 
-## Applications
+## Downstream Applications
 
 - **Solar Filament Segmentation** in Hα images
 - **Chirality Classification** for magnetic field interpretation
@@ -123,4 +123,3 @@ All code is written in Python (>=3.8). Deep learning models are implemented in P
 
 ```bash
 pip install -r requirements.txt
-![alt text](architecture1.png)
