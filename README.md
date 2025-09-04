@@ -88,8 +88,6 @@ All code is written in Python (>=3.8). Deep learning models are implemented in P
 
 ## References
 
-## 📚 References
-
 <a id="1">[1]</a> S. E. Gibson, “Solar prominences: theory and models: Fleshing out the magnetic skeleton,” *Living Reviews in Solar Physics*, vol. 15, no. 1, p. 7, 2018.  
 
 <a id="2">[2]</a> J. Eastwood, R. Nakamura, L. Turc, L. Mejnertsen, and M. Hesse, “The scientific foundations of forecasting magnetospheric space weather,” *Space Science Reviews*, vol. 212, pp. 1221–1252, 2017.  
