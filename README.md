@@ -8,7 +8,7 @@ All code files are licensed under the MIT license (see `LICENSE`).
 
 [**Paper (coming soon)**]() | [**Dataset (MAGFILO)**](#) | [**Pre-trained Models (coming soon)**]()
 
-![EdgeAttNet Architecture](./sample_images/architecture.png)
+![EdgeAttNet Architecture](./sample_images/architecture1.png)
 
 Solar filaments are elongated dark structures observed in Hα images, carrying crucial information about solar magnetic fields and space weather events. Detecting them reliably remains challenging due to their fine-scale morphology and imaging artifacts.
 
