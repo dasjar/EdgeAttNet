@@ -78,10 +78,11 @@ All code is written in Python (>=3.8). Deep learning models are implemented in P
 
 | File | Description |
 |------|-------------|
-| `models/edgeattnet.py` | Implementation of the EdgeAttNet architecture. |
-| `train.py` | Training script for model training and evaluation. |
-| `data_loader.py` | Data loading and preprocessing utilities. |
+| `model/edgeattnet_model.py` | Implementation of the EdgeAttNet architecture & training. |
+| `data_loader.py` | Data loading and preprocessing utilities.|
+| `main.py` | Contains main function to run model.|
 | `requirements.txt` | Required dependencies. |
+
 
 
 
