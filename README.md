@@ -1,7 +1,8 @@
-# EdgeAttNet — Solar Filament Segmentation with Edge Guided Multihead Self Attention
+# EdgeAttNet: Towards Barb-Aware Filament Segmentation
 
-Note: This *README* file is for demonstration purposes. For details of the model, please refer to our paper (link coming soon).  
+Note: This *README* file is for demonstration purposes. For details of the model, please refer to our [paper on arXiv](https://arxiv.org/abs/2509.02964).  
 All code files are licensed under the MIT license (see `LICENSE`).
+
 
 
 ---
