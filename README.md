@@ -16,7 +16,7 @@ Solar filaments are elongated dark structures observed in Hα images, carrying c
 We present **EdgeAttNet** — a **U-Net**-based segmentation architecture enhanced with **Edge-Guided Multihead Self-Attention (EG-MHSA)** — designed to accurately segment solar filaments while preserving subtle morphological features such as filament barbs, which are essential for determining the magnetic field orientation of coronal mass ejections (CMEs). By integrating learned edge priors into the attention mechanism, EdgeAttNet outperforms conventional architectures in capturing both global context and fine-grained details, while also reducing the number of trainable parameters compared to U-Net and U-Net+MHSA (with or without positional encodings).
 
 
-Any questions regarding the model or dataset can be directed to [Your Name] (vsolomon3@studentgsu.edu).
+Any questions regarding the model or dataset can be directed to Victor Solomon(vsolomon3@studentgsu.edu).
 
 ## Updates Log
 2025.09.03 &emsp; Initial release of EdgeAttNet model and codebase.
