@@ -39,20 +39,32 @@ Any questions regarding the model or dataset can be directed to Victor Solomon  
    - Standard U-Net
    - U-Net + MHSA (with and without positional encodings)
 
-## Results
+## 📊 Results
 
-EdgeAttNet achieves superior segmentation performance while reducing model complexity:
+**EdgeAttNet** achieves superior segmentation performance while significantly reducing model complexity:
 
-| Model                           | Trainable Parameters |
+### 🔧 Model Complexity
+
+| Model                          | Trainable Parameters |
 |--------------------------------|----------------------|
-| U-Net                           | 31,030,593           |
-| U-Net + MHSA (no PE)            | 35,231,041           |
-| U-Net + MHSA (with PE)          | 35,362,113           |
-| **EdgeAttNet (ours)**           | **22,658,891**       |
+| U-Net                          | 31,030,593           |
+| U-Net + MHSA (no PE)           | 35,231,041           |
+| U-Net + MHSA (with PE)         | 35,362,113           |
+| **EdgeAttNet (ours)**          | **22,658,891**       |
 
 This reduction in complexity results in improved training and inference efficiency, as well as better generalization.
 
 Additionally, the integration of edge priors removes the need for positional encodings, simplifying the architecture while maintaining robust spatial feature extraction.
+
+### 📈 Segmentation Performance on MAGFILO Test Split
+
+| Metric                        | U-Net   | U-Net + MHSA (no PE) | U-Net + MHSA (with PE) | **EdgeAttNet (ours)** |
+|------------------------------|---------|------------------------|--------------------------|------------------------|
+| *mIoU*<sub>pairwise</sub>    | 0.5724  | 0.5856                 | 0.6200                   | **0.6451**             |
+| *mIoU*<sub>multiscale</sub>  | 0.5848  | 0.6000                 | 0.6601                   | **0.7032**             |
+
+**EdgeAttNet** consistently outperforms all U-Net variants across both pairwise and multiscale *mIoU* metrics, demonstrating its effectiveness in capturing both global context and fine-scale spatial features.
+
 
 ## Applications
 
