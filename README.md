@@ -7,7 +7,7 @@ All code files are licensed under the MIT license (see `LICENSE`).
 
 ---
 
-[**Paper**](https://arxiv.org/pdf/2509.02964) | [**Dataset (MAGFILO)**](#) 
+[**Paper**](https://arxiv.org/pdf/2509.02964) | [**Dataset (MAGFILO)**](https://www.mlecofi.net/magfilo) 
 
 ![EdgeAttNet Architecture](./sample_images/architecture1.png)
 
